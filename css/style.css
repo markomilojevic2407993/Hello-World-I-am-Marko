@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.headerDiv{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg5.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    height: 35vh;
+    width: 35vw;
+}
+.sing{
+    
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.navHead{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    position: fixed;
+    top: 2rem;
+    transform: translateX(-50%);
+    left:50%;
+    
+    width: 350px;
+    height: 70px;
+    border-radius: 3rem;
+    background-color: rgb(210, 195, 224);
+    opacity: 0.6;
+
+}
+.navHead a{
+    padding: 10px;
+}
+.footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.leftDiv{
+    width: 300px;
+    height: 450px;
+    
+}
+.rightDiv{
+    width: 300px;
+    height: 450px;
+    
+    margin-top: 20px;
+   
+}
+.rightDiv input, textarea{
+    width: 300px;
+    height: 45px;
+    border: 7px double darkblue;
+}
+.oneDiv{
+    font-size: 1rem;
+    width: 250px;
+    height: 150px;
+    margin: 25px;
+    background-color:  rgb(129, 129, 173);
+}
